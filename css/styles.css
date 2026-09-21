@@ -5,14 +5,14 @@
 }
 
 :root {
-    /* Paleta Dune - Modo Claro (desierto de Arrakis al mediodía) */
-    --primary-color: #7c2d12;        /* Rojo tierra / roca quemada */
-    --accent-color: #0284c7;         /* Azul especia / ojos Fremen */
-    --accent-hover: #075985;         /* Azul profundo al pasar el cursor */
-    --bg-gradient: linear-gradient(135deg, #fde68a 0%, #f59e0b 45%, #c2410c 100%); /* Arena a fuego del atardecer */
-    --card-bg: #fffbeb;              /* Arena clara / pergamino */
-    --text-primary: #451a03;         /* Marrón oscuro casi negro */
-    --text-secondary: #9a3412;       /* Óxido / terracota */
+    
+    --primary-color: #7c2d12;        
+    --accent-color: #0284c7;         
+    --accent-hover: #075985;         
+    --bg-gradient: linear-gradient(135deg, #fde68a 0%, #f59e0b 45%, #c2410c 100%); 
+    --card-bg: #fffbeb;              
+    --text-primary: #451a03;         
+    --text-secondary: #9a3412;       
     --shadow-soft: 0 4px 6px -1px rgba(124, 45, 18, 0.15), 0 2px 4px -1px rgba(124, 45, 18, 0.08);
     --shadow-hover: 0 20px 25px -5px rgba(194, 65, 12, 0.2), 0 10px 10px -5px rgba(194, 65, 12, 0.08);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -21,17 +21,16 @@
 
 
 
-/* Modo Oscuro Automático - Dune (noche del desierto, especia bajo la luna) */
 @media (prefers-color-scheme: dark) {
     :root {
-        /* Fondo: cielo nocturno azul profundo con vetas de arena/especia */
+        
         --bg-gradient: linear-gradient(135deg, #0c1220 0%, #1e293b 40%, #7c2d12 100%);
-        --card-bg: #1c1408;          /* Arena oscurecida por la noche */
+        --card-bg: #1c1408;          
 
-        --primary-color: #fde68a;    /* Arena pálida iluminada por luna */
-        --text-primary: #fef3c7;     /* Casi blanco cálido */
-        --text-secondary: #fb923c;   /* Naranja especia atenuado */
-        --accent-color: #38bdf8;     /* Azul brillante, ojos Fremen bajo la luna */
+        --primary-color: #fde68a;    
+        --text-primary: #fef3c7;     
+        --text-secondary: #fb923c;   
+        --accent-color: #38bdf8;     
         --accent-hover: #0ea5e9;
 
         --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
